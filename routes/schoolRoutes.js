@@ -5,4 +5,6 @@ const schoolController = require('../controllers/schoolController.js');
 router.post('/addSchool', schoolController.addSchool);
 router.get('/listSchools', schoolController.listSchools);
 
+//hello
+
 module.exports = router;
